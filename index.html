@@ -2,30 +2,53 @@
 <html lang="es">
 
     <head>
-        <meta charset="utf-8" />
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Blog</title>
-        <meta name="description" content="blog Cátolico" />
-        <meta name="author" content="striwey" />
-        <meta name="keywords" content="tags para encontrar the web page" />
-        <link rel="stylesheet" href="estilos.css">
+
+        <link rel="stylesheet" href="styles.css">
         <link rel="shortcut icon" href="images/favicon2.png">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        
+        <!--google fonts outfit-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <div class="todo">
-            <header>
-                <img id="img_principal" src="images/cruz2.png" alt="cruz" width=10%>
-                <h1 id="titulo">Blog Católico</h1>                
-            </header>
-    
-            <nav class="menu"> 
-                <ul>
-                    <li>Principal</li>
-                    <li>Calendario</li>
-                    <li>Contacto</li>       
+        <div class="container">
+            
+            <nav class="nav-main"> 
+                <img id="img_principal" src="images/cruz2.png" alt="cruz" width=5%>
+                <ul class="nav-menu">
+                    <li>
+                        <a href="#">Principal</a>
+                    </li>
+                    <li>
+                        <a href="#">Calendario</a>
+                    </li> 
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li> 
+                </ul>
+                <ul class="nav-menu-right">
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </li>
                 </ul>
             </nav>
+            <hr>
             
+            <header>
+                
+                <h1 id="titulo">Blog Católico</h1>                
+            </header>
+
             <section class="seccion">
     
                 <article id="first_art">
@@ -66,5 +89,4 @@
             </footer>
         </div>
     </body>
-    <div id="credito">Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
 </html>
